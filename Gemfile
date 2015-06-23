@@ -43,5 +43,5 @@ gem 'capistrano-rails'
 gem 'capistrano-bundler'
 gem 'capistrano-rbenv'
 gem 'capistrano-passenger'
-# gem 'capistrano-withrsync', require: false
+# gem 'capistrano-withrsync', '0.1.0', require: false
 
