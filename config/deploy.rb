@@ -2,7 +2,7 @@
 lock '3.2.1'
 
 set :application, 'capistrano_sample'
-set :repo_url, 'git@github.com:qooskydev/capistrano_sample.git'
+set :repo_url, 'https://github.com/harubot/capistrano_sample.git'
 
 # Default branch is :master
 set :branch, 'master'
@@ -31,9 +31,9 @@ set :default_env, { path: "/usr/local/rbenv/shims:/usr/local/rbenv/bin:$PATH" }
 # Default value for keep_releases is 5
 set :keep_releases, 5
 
-# rbenvの設定 (/usr/local/rbenv に 2.1.2 をインストールすることを想定)
+# rbenvの設定 (/usr/local/rbenv に 2.1.3 をインストールすることを想定)
 set :rbenv_type, :system
-set :rbenv_ruby, '2.1.2'
+set :rbenv_ruby, '2.1.3'
 
 # bundlerを実行する際の引数
 set :bundle_flags, "--deployment --without development test"
